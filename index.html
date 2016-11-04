@@ -9,6 +9,28 @@
 
 <body>
 
+<form>
+  <fieldset id="range-radio-buttons">
+    <legend>Range:</legend>
+    <label>
+      <input type="radio" name="range" value="[0, 1]" checked>
+      [0, 1]
+    </label>
+    <label>
+      <input type="radio" name="range" value="[-1, 1]">
+      [-1, 1]
+    </label>
+    <label>
+      <input type="radio" name="range" value="[-3, 3]">
+      [-3, 3]
+    </label>
+    <label>
+      <input type="radio" name="range" value="[-10, 10]">
+      [-10, 10]
+    </label>
+  </fieldset>
+</form>
+
 <div class="wrapper">
   <div class="inputs">
     <div class="slider">
@@ -30,19 +52,19 @@
   </div>
 
   <div class="outputs">
-    <div class="output">
+    <div class="slider">
       <label for="oslider0"></label>
       <input id="oslider0" type="range" min="0" max="1" step="0.01" disabled>
     </div>
-    <div class="output">
+    <div class="slider">
       <label for="oslider1"></label>
       <input id="oslider1" type="range" min="0" max="1" step="0.01" disabled>
     </div>
-    <div class="output">
+    <div class="slider">
       <label for="oslider2"></label>
       <input id="oslider2" type="range" min="0" max="1" step="0.01" disabled>
     </div>
-    <div class="output">
+    <div class="slider">
       <label for="oslider3"></label>
       <input id="oslider3" type="range" min="0" max="1" step="0.01" disabled>
     </div>
